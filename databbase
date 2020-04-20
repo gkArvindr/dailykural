@@ -1,0 +1,10 @@
+CREATE TABLE thirukkural
+(
+ ID INTEGER NOT NULL AUTO_INCREMENT,
+ ChapterName VARCHAR(50) NOT NULL DEFAULT '',
+ SectionName VARCHAR(50) NOT NULL DEFAULT '',
+ Verse TEXT,
+ Translation TEXT,
+ Explanation TEXT,
+ PRIMARY KEY(id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
